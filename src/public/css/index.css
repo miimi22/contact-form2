@@ -1,0 +1,175 @@
+.contact-form__content {
+    margin: 0 auto;
+    max-width: 1512px;
+}
+
+.contact-form__heading {
+    color: #8B7969;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--item {
+    color: #8B7969;
+    font-size: 25px;
+}
+
+.form__label--required {
+    color: red;
+    font-size: 25px;
+}
+
+.form__input--text {
+    display: flex;
+    height: 35px;
+    width: 900px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: none;
+    background-color: #E0DFDE;
+    color: rosybrown;
+    font-size: 15px;
+}
+
+.form__input--text-lastname {
+    background-color: #E0DFDE;
+    width: 405px;
+    margin-right: 50px;
+    height: 35px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form__input--text-firstname {
+    background-color: #E0DFDE;
+    width: 405px;
+    height: 35px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form__input--text-man {
+    color: rosybrown;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.form__input--text-woman {
+    color: rosybrown;
+    padding-right: 100px;
+}
+
+.form__input--text-other {
+    color: rosybrown;
+}
+
+.form__input--text-email {
+    height: 35px;
+    background-color: #E0DFDE;
+    width: 860px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form__input--text-tel {
+    height: 35px;
+    width: 265px;
+    background-color: #E0DFDE;
+    text-align: center;
+}
+
+.form__input--text-hyphen {
+    padding: 7px 13px 0 13px;
+}
+
+.form__input--text-address {
+    height: 35px;
+    width: 860px;
+    background-color: #E0DFDE;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form__input--text-building {
+    height: 35px;
+    width: 860px;
+    background-color: #E0DFDE;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form__input--text-select {
+    position: relative;
+}
+
+.form__input--text-select::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid rosybrown;
+    border-bottom: 0;
+    pointer-events: none;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    color: rosybrown;
+    background-color: #E0DFDE;
+    height: 35px;
+    width: 450px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.form__input--text-textarea {
+    height: 105px;
+    width: 860px;
+    border: none;
+    background-color: #E0DFDE;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: rosybrown;
+}
+
+.form__button {
+    position: relative;
+}
+
+.form__button-submit {
+    position: absolute;
+    top: 60px;
+    color: white;
+    background-color: #82756A;
+    border: none;
+    height: 46px;
+    width: 160px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+}

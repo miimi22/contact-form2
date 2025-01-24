@@ -1,0 +1,33 @@
+.thanks__title {
+    position: relative;
+}
+
+.thanks__title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    color: #8B7969;
+    font-size: 30px;
+}
+
+.thanks__content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 280px;
+    color: rgba(139,121,105,0.05);
+}
+
+.thanks__button-submit {
+    border: none;
+    color: #ffffff;
+    background-color: #8B7969;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -550%);
+    padding: 5px 20px;
+    text-decoration: none;
+}
